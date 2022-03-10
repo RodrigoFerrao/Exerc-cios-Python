@@ -1,4 +1,5 @@
 # Calculadora númerica em Python
+# OBS: a calculadora se encontra em um nível muito básico atualmente, tenho planos de melhorias no futuro.
 
 escolha = '0'
 menos = multiplicacao = divisao = soma = 0
