@@ -1,0 +1,12 @@
+"""
+10) Faça um algoritmo que leia a largura e altura de uma parede, calcule e
+mostre a área a ser pintada e a quantidade de tinta necessária para o serviço,
+sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
+"""
+
+print('Digite a altura e a largura da parede para calcular, 1 litro de tinta será utilizado para cada 2m quadrados')
+altura = float(input('Digite a altura:'))
+largura = float(input('Digite a largura'))
+metroquadrado = altura * largura
+quantidadetinta = metroquadrado / 2
+print(f'Para realizar a pintura de {metroquadrado} metros quadrados, serão necessários {quantidadetinta} litros de tinta')
