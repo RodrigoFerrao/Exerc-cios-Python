@@ -11,4 +11,4 @@ altura = float(input('Digite a altura em metros do muro a ser pintado:'))
 largura = float(input('Digite a largura em metros do muro a ser pintado:'))
 area = altura * largura
 pintura = area / 2
-print(f'Para pintar uma area de {area} metros quadrados, serão necessários {pintura} litros de tinta
+print(f'Para pintar uma area de {area} metros quadrados, serão necessários {pintura} litros de tinta')
