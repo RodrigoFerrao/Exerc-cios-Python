@@ -4,6 +4,12 @@ média e mostre na tela. No final, analise a média e mostre se o aluno teve ou
 não um bom aproveitamento (se ficou acima da média 7.0).
 """
 
+# Ler o nome, nota 1 e nota 2 do aluno
+# Calcular a média com a nota 1 e a nota 2
+# Calcular média com a nota 1 e nota 2 e conferir se alcançou a media 7
+# ^> Imprimir resultado aprovado
+# Imprimir resultado reprovado
+
 print('Bem-vindo a calculadora de médias, será necessário seu nome e suas dutas notas')
 nome_aluno = input('Digite o seu nome:').title()
 nota1 = float(input('Digite sua primeira média:'))
